@@ -1,0 +1,40 @@
+main .cats{
+    width: 60%;
+    padding-bottom:1.5rem;
+    border-bottom: solid 1px #d8d8d8;
+}
+main .cat.active,main .cat:hover{
+    background-color: #f5a623;
+}
+main .cat{
+    background-color: #d8d8d8;
+    margin:0px 5px 0px 5px;
+    width: 150px;
+}
+
+main .cat.active a{
+    color: #fff;
+}
+main .cat:hover a{
+    text-decoration: none;
+    color:#fff;
+}
+main #lstnews .date{
+    line-height: 1.5em;
+    margin-top: 1.5em;
+}
+main #lstnews a.tit{
+    font-size: 1.1em;
+}
+@media screen and (max-width: 768px) {
+    main .cats{
+        width: 100%;        
+        padding-bottom:3rem;
+    }
+    main .cat{
+        padding:.5rem!important;
+    }
+    main .cats a{
+        font-size: .8em;
+    }
+}

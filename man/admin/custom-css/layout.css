@@ -1,0 +1,14 @@
+.sidebar-header{
+	margin-top: 20px;
+}
+.sidebar-header a{
+	color:#fff;
+}
+table a{
+	color:#fff;
+}
+.custom-pagination ul.pagination li.active a {
+    color: #fff;
+    background-color: #e12503;
+	border-color: #e12503;
+}

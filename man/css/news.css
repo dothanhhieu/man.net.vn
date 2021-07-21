@@ -1,0 +1,130 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #fff;
+    content: ">";
+}
+.breadcrumb-item{
+    font-size:.8em;
+}
+ol.breadcrumb{
+    padding-left:0px;
+}
+.title{    
+    background-image:url(../img/audit-assurance.png);
+    background-size: cover;
+}
+.title>.cover{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    background-color: rgba(0,0,0,.7);
+    font-family: 'Open Sans', sans-serif;
+}
+.title>.cover h3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.title *{
+    color:#fff;
+}
+.main .responsive-time{
+    display:none;
+}
+/* .main .col-lg-7{
+    background-image:url(../img/water-mark.png);
+    background-size:30%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+.main .sb-right ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    line-height:2em;
+}
+.main .sb-right ul li{
+    border-bottom:.5px solid rgb(189, 187, 187);
+    padding-top:.5rem;
+    padding-bottom:.25rem;
+}
+.main .sb-right ul li:last-child{
+    border-bottom:none;
+}
+
+.main .sb-right ul>li>i{
+    cursor: pointer;
+}
+.main .sb-right ul>li>ul{
+    padding-left:5%;
+}
+.main .sb-right ul li.active{
+    font-style: italic;
+}
+.main .sb-right ul li li{
+    font-style: italic;
+}
+.main .sb-right ul li.active>a{
+    font-weight: 600;
+}
+#contact .frm .right ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#contact .frm .right{
+    border-left:1px solid orange;
+    
+}
+#contact .frm .right p{
+    margin:0;
+}
+#contact .frm .right p.name{
+    font-size:1.2em;
+    font-weight: 600;
+    margin-top:1rem;
+}
+#contact .frm .right p.pos{
+    font-style: italic;
+    font-weight: 600;
+}
+#contact .frm .right a{
+ color:#4a90e2
+}
+@media screen and (max-width: 768px) {
+  
+    .main, section.title .cover{
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .main .responsive-time{
+        display:block;
+        text-align: right;
+        line-height: 1em;
+        margin-bottom:1rem;
+    }
+    .main .responsive-time .d-flex{
+        justify-content: flex-end;
+    }
+    .main .responsive-time .d-flex button{
+        width:auto!important;
+    }
+    .main .sb-left .sticky{
+        display:none;
+    }
+    .main .sb-right .sticky{
+        position: static!important;
+        width:auto!important;
+    }
+    #contact .frm .right{
+        border-left:none;
+        border-top:1px solid orange;
+        margin-top:1.5rem;
+    }
+    .main .sb-right .sticky{
+        position: static!important;
+    }
+    .main .col-lg-7{
+        background-size: 60%;
+    }
+}

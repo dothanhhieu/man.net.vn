@@ -1,0 +1,9 @@
+<?php
+	$lst_rule=[0,1,2];
+	$check_login=true;
+	require_once('../lib/db.php');
+	$process='component/slideshow_process.php';
+	$ctp='component/slideshow_ctp.php';
+	$title_page='Slider';
+	require_once('layout.php');
+?>
